@@ -1,2 +1,2 @@
-# next-s_review_project
+# Nextjs review project
 next js demo review project
