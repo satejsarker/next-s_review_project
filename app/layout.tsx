@@ -6,8 +6,8 @@ export default function RootLayout({ children}: LayoutProps){
     return (
         <html lang="en">
 
-            <body>
-                <header>
+            <body >
+                <header style={{border: "solid indigo 2px"}}>
                     [Header]
                 </header>
                 <main>
