@@ -1,8 +1,10 @@
+import Heading from "../components/Heading";
+
 export default function AboutPage(){
     console.log("About Page");
     return (
         <>
-        <h1>About</h1>
+        <Heading>About</Heading>
             <p>Here list all the review</p>
         </>
     );
