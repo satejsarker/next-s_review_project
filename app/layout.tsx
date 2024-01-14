@@ -17,7 +17,7 @@ export default function RootLayout({ children }: LayoutProps) {
                 <main className="grow py-3">
                     {children}
                 </main>
-                <footer className="border-t py-3 text-center text-xs">
+                <footer className="border-t py-3 text-slate-500 text-center text-xs">
                 Ganme data and images courtesy of {' '}
                     <a href="https://rawg.io/" className="text-orange-800 hover:underline" 
                     target="_blank">RAWG</a>
