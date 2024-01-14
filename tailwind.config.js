@@ -6,7 +6,12 @@ module.exports = {
  
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+          orbitron: ['var(--font-orbitron)', 'sans-serif'],
+          sans:['var(--font-exo_2)','sans-serif']
+      }
+    },
   },
   plugins: [],
 }

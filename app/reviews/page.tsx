@@ -17,7 +17,7 @@ export default function ReviewPage() {
                             alt=""
 
                         />
-                        <h1 className="py-1 text-center">
+                        <h1 className=" font-semibold py-1 font-orbitron text-center">
                         Hollow Knight
                         </h1>
                        </Link>
@@ -31,7 +31,7 @@ export default function ReviewPage() {
                             width={320} height={180}
 
                         />
-                        <h1 className="py-1 text-center">
+                        <h1 className=" font-orbitron font-semibold py-1 text-center">
                         Stardew Valley</h1></Link>
                 </li>
             </ul>
