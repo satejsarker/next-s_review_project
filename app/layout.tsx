@@ -1,8 +1,8 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import './globals.css'
-import NavBar from "./components/NavBar";
-import { exo2, orbitron } from "./fonts";
+import NavBar from "@/app/components/NavBar";
+import { exo2, orbitron } from "@/app/fonts";
 interface LayoutProps {
     children: ReactNode;
 }
