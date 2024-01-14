@@ -7,8 +7,8 @@ export default function ReviewPage() {
     return (
         <>
             <Heading>Game Review</Heading>
-            <ul className=" flex flex-col transition m-3 list-outside text-red-900 list-none hover:list-disc">
-                <li>
+            <ul className="flex flex-col gap-3">
+                <li className="bg-white border rounded shadow w-80 hover:shadow-xl">
                     <Link href="/reviews/hollow-knight">
                         <Image
                             src="/images/hellblade.jpg"
@@ -17,9 +17,12 @@ export default function ReviewPage() {
                             alt=""
 
                         />
-                        Hollow Knight</Link>
+                        <h1 className="py-1 text-center">
+                        Hollow Knight
+                        </h1>
+                       </Link>
                 </li>
-                <li>
+                <li className="bg-white border rounded shadow w-80 hover:shadow-xl">
                     <Link href="/reviews/stardew-valley">
 
                         <Image
@@ -28,7 +31,8 @@ export default function ReviewPage() {
                             width={320} height={180}
 
                         />
-                        Stardew Valley</Link>
+                        <h1 className="py-1 text-center">
+                        Stardew Valley</h1></Link>
                 </li>
             </ul>
         </>
