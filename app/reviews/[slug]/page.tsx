@@ -1,11 +1,15 @@
 import Heading from "@/app/components/Heading";
-import { getReview } from "@/lib/reviews";
+import { getReview, getSlugs } from "@/lib/reviews";
 
 import Image from "next/image";
-
+export async function generateStaticParams() {
+    const slugs= await getSlugs();
+    return slugs.map((slug)=>({slug}));
+}
 export default async function ReviewPage({params:{slug}}) {
     console.log(slug)
     const review= await getReview(slug)
+    console.log('[ReviewPage', slug);
     return (
         <>
             <Heading>{review.title}</Heading>
