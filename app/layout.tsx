@@ -3,6 +3,15 @@ import type { ReactNode } from "react";
 import './globals.css'
 import NavBar from "@/app/components/NavBar";
 import { exo2, orbitron } from "@/app/fonts";
+import type { Metadata } from 'next'
+export const metadata: Metadata={
+    title:{
+        default:  "Indie Gamer",
+        template: "%s | Indie Gamer"
+    },
+    description: 'only best Game review',
+    
+}
 interface LayoutProps {
     children: ReactNode;
 }

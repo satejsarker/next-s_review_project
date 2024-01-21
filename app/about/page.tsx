@@ -1,11 +1,14 @@
+import { Metadata } from "next";
 import Heading from "../components/Heading";
-
+export const metadata: Metadata={
+    title: 'About'
+}
 export default function AboutPage(){
     console.log("About Page");
     return (
         <>
         <Heading>About</Heading>
-            <p>Here list all the review</p>
+            <p>About the website</p>
         </>
     );
 }

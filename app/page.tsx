@@ -3,6 +3,7 @@ import Image from "next/image";
 import Heading from "./components/Heading";
 import { getFeaturedReview } from "@/lib/reviews";
 
+
 export default async function HomePage() {
     console.log("Home page");
     const review= await getFeaturedReview();
