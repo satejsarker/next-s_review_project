@@ -1,9 +1,8 @@
-
-import ShareLinkButton from "./ShareLinkButton";
-export default function ShareButtons(){
-    return(
-        <div>
-            <ShareLinkButton/>
-        </div>
-    )
+import ShareLinkButton from './ShareLinkButton';
+export default function ShareButtons() {
+  return (
+    <div>
+      <ShareLinkButton />
+    </div>
+  );
 }
